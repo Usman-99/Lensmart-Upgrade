@@ -1,0 +1,42 @@
+body{height: 100%;
+  width: 100%;
+  background-image: url("./Images/newcover.jpg");
+  background-position: center;
+  background-size: 100vh;
+  position: relative;
+margin: 0;
+padding: 0;}
+        h1,
+        h2,
+        h3,
+        h5,
+        h6 {
+          color: darkblue;
+            font-family: "Raleway", sans-serif;
+            background-color: cornflowerblue;
+            padding: 10px 3px 10px 3px;
+        }
+     
+        html {
+            height: 100%;
+            line-height: 1.8;
+        }
+
+        .w3-bar .w3-button {
+            padding: 18px;
+        }
+
+.navbar{
+  margin-bottom: 80px;
+}
+#about{
+  margin-top: 50px;
+}
+h4{
+  background-color: aliceblue;
+  padding: 5px 3px 5px 3px;
+}
+
+i{
+  cursor: pointer;
+}
