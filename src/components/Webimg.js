@@ -1,5 +1,5 @@
 import React from 'react';
-import web from "../Images/web.JPG"
+import web from "../Images/web.gif"
 import {Link} from "react-router-dom"
 
 export default function Webimg() {
