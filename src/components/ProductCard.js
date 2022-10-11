@@ -1,6 +1,6 @@
 export default function ProductCard({product}) {
   return (
-    <div className="movie">
+    <div className="product">
     <div>
       <p>{product.category}</p>
     </div>
