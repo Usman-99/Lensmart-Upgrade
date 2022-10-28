@@ -72,10 +72,12 @@ export default function Navbar(props) {
                                 'aria-labelledby': 'basic-button',
                             }}
                         >
-                            <MenuItem onClick={handleClose}>
-                                <div className='row px-3 py-2 d-flex align-items-center' style={{ height: "60px" }}>
-                                    <p className='col-7 text-dark text-center py-0 px-1' style={{ alignItems: "center",fontSize:"22px" }}>Cart is empty</p>
-                                    <img className='col-5 ms-2' src={cart} alt="cart"   style={{width:"5rem"}} /></div>
+                            <MenuItem>
+                                <div className='row px-3 d-flex' style={{ height: "55px" }}>
+                                    <p className='col-7 text-dark text-center py-1 px-1' style={{ alignItems: "center",fontSize:"22px" }}>Cart is empty</p>
+                                    <img className='col-4 ms-2' src={cart} alt="cart"   style={{width:"5rem"}} />
+                                    <i className="fa-sharp fa-solid fa-xmark col-1 mt-0" onClick={handleClose}></i>
+                                </div>
                             </MenuItem>
                             {/* <MenuItem onClick={handleClose}>Cart is Empty</MenuItem> */}
                         </Menu>
